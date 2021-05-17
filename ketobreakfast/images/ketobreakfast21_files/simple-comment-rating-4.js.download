@@ -1,0 +1,42 @@
+jQuery(document).ready(function() {
+    jQuery('a.simple-rate-initial').removeClass('simple-rate-initial').addClass('simple-rate').click(function() {
+	if (!ckdc || !ckdc.ajaxurl)
+	    return;
+
+	var a = jQuery(this);
+	if (!a.hasClass('simple-rate-active'))
+	    return false;
+
+	a.removeClass('simple-rate-active').addClass('simple-rate-working');
+
+	var parts = a.attr('id').split('-');
+	var nonce = parts.pop();
+	var id = parseInt(parts.pop(), 10);
+	var type = parts.pop();
+
+	jQuery.post(ckdc.ajaxurl, {
+	    action: 'simple_comment_rate',
+	    id: id,
+	    nonce: nonce,
+	    type: type
+	}, function (response) {
+	    var r = parseInt(response, 10);
+
+	    if (r > 0) {
+		jQuery('#simple-rating-nr-' + id).html(r);
+		a.parents('.comment').addClass('rating-plus');
+	    } else {
+		if (response.length > 0)
+		    a.after(' <small>' + response + '</small>');
+	    }
+
+	    a.removeClass('simple-rate-working').addClass('simple-rate-inactive');
+	});
+
+	return false;
+    });
+
+    if (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase())) {
+	jQuery('#comments').addClass('simple-rate-mobile');
+    }
+});

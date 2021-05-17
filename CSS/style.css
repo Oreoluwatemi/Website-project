@@ -1,0 +1,714 @@
+body {
+    width: 100%;
+    width: 1350px;
+    margin: 0;
+    position: relative;
+}
+
+
+.div1 {
+    overflow: hidden;
+    background-color: cornsilk;
+    font-style: italic;
+}
+
+.div1 p {
+
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.isearch {
+    float: right;
+}
+
+.div1 input[type=text] {
+    padding-top: 10px;
+    margin-top: 35px;
+    font-size: 17px;
+    border: none;
+}
+
+.div1 button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 35px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px
+}
+
+#div2 {
+    width: 100%;
+    height: 22px;
+    color: black;
+    align-content: center;
+    font-size: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: burlywood;
+
+}
+
+.div21 {
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid black;
+    color: black;
+    float: left;
+}
+
+.div22 {
+    width: 19%;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+#div2 a {
+    text-decoration: none;
+    target="_blank";
+    color: black;
+}
+
+#div3 {
+    width: 100%;
+    height: 500px;
+}
+
+#div3 button {
+
+    margin: 30px 120px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#div31 {
+    padding-top: 50px;
+    padding-left: 300px;
+    float: left;
+}
+
+#ketoVideo iframe {
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.dietimg {
+    width: 350px;
+    height: 350px;
+}
+
+#div32 {
+    padding-top: 50px;
+    float: left;
+    width: 350px;
+    height: 350px;
+}
+
+.diet1 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.diet2 {
+
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.diet3 {
+    text-decoration: none;
+    target="_blank";
+    color: black;
+}
+
+#div4 {
+    width: 100%;
+    display: block;
+    height: 500px;
+
+
+}
+
+#div41 {
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+
+
+}
+
+#image_interval img {
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    float: left;
+}
+
+.recipies1 {
+
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+
+#div5 {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+
+}
+
+#div5 p {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 70px;
+    border: 2px solid grey;
+}
+
+.recipies2 {
+    text-decoration: none;
+    target: _blank;
+    color: black;
+}
+
+#div6 {
+    background-color: black;
+    height: 250px;
+}
+
+.div61 {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#div6 a {
+    text-decoration: none;
+    target: _blank;
+    color: seashell;
+}
+
+#top_link {
+    text-align: center;
+    font-family: cursive;
+    font-size: 12px;
+}
+
+#diet {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#diet img {
+    float: left;
+    padding-right: 10px;
+    width: 400px;
+}
+
+#div_table {
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#div_table img {
+
+    target: _blank;
+    height: 300px;
+    width: 300px;
+
+}
+
+#div_table table {
+    border-style: solid;
+}
+
+#div_table a {
+    font-size: 17px;
+    text-decoration: none;
+    target: _blank;
+}
+
+#div_table p {
+    text-align: center;
+    color: black;
+    border: 0.3px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+#contact {
+    margin-left: 420px;
+
+}
+
+#contact form {
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    background-color: gray;
+    text-align: center;
+}
+
+#contact_us {
+    text-align: center;
+}
+
+#contact input[type=text] {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+#contact input[type=email] {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 80%;
+    height: 130px;
+    box-sizing: border-box;
+}
+
+#contact input[type=submit] {
+    width: 80px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#contact1 {
+    height: 300px;
+}
+
+.cont {
+    border: 1px solid black;
+    width: 200px;
+    height: 110px;
+    float: left;
+    margin-left: 160px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.cont1 {
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 30px;
+    width: 500px;
+    height: 110px;
+    float: left;
+
+}
+
+.cont1 input[type=email] {
+    width: 60%;
+    height: 30px;
+    box-sizing: border-box;
+
+}
+
+.cont1 input[type=submit] {
+    width: 60%;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+#contact1 a {
+    font-size: 17px;
+    text-decoration: none;
+    target: _blank;
+    color: white;
+}
+
+#macro form {
+    height: 700px;
+    width: 500px;
+    border-style: solid;
+    background-color: gray;
+    margin-left: 420px;
+    padding-left: 10px;
+}
+
+#meal {
+    height: 700px;
+}
+
+#meal1 {
+    width: 50%;
+    float: left;
+
+}
+
+.img_recipies {
+    height: 500px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 100px;
+
+}
+
+.meal2 {
+    padding-left: 100px;
+    padding-top: 250px;
+}
+
+#option {
+    height: 1200px;
+
+}
+
+.option1 {
+    height: 500px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+
+.option1 img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.option1 a {
+    target: _blank;
+    text-decoration: none;
+}
+
+.option1 p {
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.option2 {
+    height: 500px;
+    float: left;
+    margin-left: 200px;
+}
+
+.option2 img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.option2 a {
+    target: _blank;
+    text-decoration: none;
+}
+
+.option2 p {
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+#food {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#food img {
+    margin-left: 410px;
+    height: 400px;
+    width: 500px;
+}
+
+#food h1 {
+    text-align: center;
+}
+
+.table table {
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+
+}
+
+.table tr {
+    height: 60px;
+}
+
+.table td {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#result {
+    margin-left: 80px;
+    font-size: 20px;
+    float: left;
+    border: 2px solid black;
+    background-color: bisque;
+}
+
+#result td {
+    height: 50px;
+    width: 180px;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+
+#tab td {
+    width: 180px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+
+#tab {
+    float: left;
+    margin-left: 80px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: bisque;
+}
+
+#output {
+    width: 100%;
+    height: 400px;
+    display: none;
+    text-align: center;
+}
+
+#output img {
+    width: 50px;
+    height: 50px;
+}
+
+#output p {
+    font-weight: 600;
+}
+
+#tab2 td {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+
+#tab2 {
+    float: left;
+    margin-left: 180px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: bisque;
+}
+
+#output2 {
+    width: 100%;
+    height: 400px;
+    display: none;
+    text-align: center;
+}
+
+#output2 img {
+    width: 50px;
+    height: 50px;
+}
+
+#output2 p {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+#result2 {
+    margin-left: 180px;
+    font-size: 20px;
+    float: left;
+    border: 2px solid black;
+    background-color: bisque;
+}
+
+#result2 td {
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+
+.mealChoices {
+    width: 200px;
+    height: 200px;
+
+}
+
+#choices a {
+    target: _blank;
+    text-decoration: none;
+    color: black;
+}
+
+#choices div {
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+}
+
+#choices {
+    margin-top: 20px;
+    height: 400px;
+    display: none;
+}
+
+#choices p {
+    width: 200px;
+
+}
+
+#view {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#view p {
+    border: 1px solid black;
+    background-color: gray;
+
+}
+
+#viewLess {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: gray;
+}
+
+#missingFields {
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    color: red;
+}
+
+#viewKetoCalorie {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    border: 1px solid black;
+    width: 600px;
+    margin-left: 380px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: bisque;
+    border-radius: 30px;
+    display: none;
+    font-family: inherit;
+
+
+}
+
+a.selected {
+    background-color: #1F75CC;
+    color: white;
+    z-index: 100;
+}
+
+.messagepop {
+    background-color: bisque;
+    border: 1px solid black;
+    cursor: default;
+    display: none;
+    margin-top: 150px;
+    margin-left: 500px;
+    position: absolute;
+    text-align: left;
+    width: 394px;
+    z-index: 50;
+    padding: 25px 25px 20px;
+}
+
+#label_email {
+    display: block;
+    margin-bottom: 3px;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.messagepop p,
+.messagepop.div {
+    border-bottom: 1px solid #EFEFEF;
+    margin: 8px 0;
+    padding-bottom: 8px;
+}
+
+.close {
+    border: 2px solid grey;
+    target: _blank;
+    text-decoration: none;
+    color: black;
+    background-color: #999999;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+#message_submit {
+    background-color: #999999;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#contact_subsribe {
+    text-align: center;
+    target: _blank;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin-left: 400px;
+
+
+}
+
+#div_contact {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#missingField2 {
+    text-align: center;
+    color: red;
+}
